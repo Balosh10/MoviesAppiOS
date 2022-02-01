@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F940E84627A4AE9A003DD208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A9DB1227A4680700259D88 /* Main.storyboard */; };
 		F940E84727A4AEAE003DD208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A9DB1A27A4680800259D88 /* LaunchScreen.storyboard */; };
+		F95B617827A9DD4300C6EA88 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95B617727A9DD4300C6EA88 /* MoviesModel.swift */; };
 		F9A9DB0D27A4680700259D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A9DB0C27A4680700259D88 /* AppDelegate.swift */; };
 		F9A9DB1127A4680700259D88 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A9DB1027A4680700259D88 /* BaseVC.swift */; };
 		F9A9DB1927A4680800259D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A9DB1827A4680800259D88 /* Assets.xcassets */; };
@@ -92,6 +93,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F95B617727A9DD4300C6EA88 /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
 		F9A9DB0927A4680700259D88 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A9DB0C27A4680700259D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9A9DB1027A4680700259D88 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				F9CB09F827A7C629006DA918 /* MoviewDetailModel.swift */,
 				F9F7CE6D27A9274C00DA3AFF /* SubCategoryModel.swift */,
 				F9F7CE6F27A927A300DA3AFF /* CategoryModel.swift */,
+				F95B617727A9DD4300C6EA88 /* MoviesModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -585,6 +588,7 @@
 			files = (
 				F9CB09D127A67BCB006DA918 /* UIView+Extensions.swift in Sources */,
 				F9CB09BD27A52F0F006DA918 /* MovieTableViewCell.swift in Sources */,
+				F95B617827A9DD4300C6EA88 /* MoviesModel.swift in Sources */,
 				F9CB09CD27A622BC006DA918 /* MovieHeaderTableViewCell.swift in Sources */,
 				F9CB0A0327A7DFFD006DA918 /* UIColor+Extension.swift in Sources */,
 				F9FD34EE27A4E801007861AB /* CollectionMoviesModel.swift in Sources */,
