@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleShortVersionString</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>Configuration</key>
+	<string>${CONFIGURATION}</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+    <key>UIAppFonts</key>
+    <array>
+        <string>ufonts.com_gotham-bold.ttf</string>
+        <string>ufonts.com_gotham-book.ttf</string>
+        <string>ufonts.com_gotham-light.ttf</string>
+        <string>ufonts.com_gotham-medium.ttf</string>
+    </array>
+</dict>
+</plist>

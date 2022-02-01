@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  MovieApp
+
+  Created by osvaldo cespedes on 30/01/22.
+  
+*/
+
+//Description APP
+
+"Service_not_available" = "Servicio no disponible";
+"films" = "Peliculas";
+"tv_shows" = "Programas de televisión";
+"favorites" = "Favoritos";
+"recommended" = "recomendados";
+"top_rated" = "Mejores calificados";
+"without_internet" = "No hay conexión a internet";
+"empty_list_movie_tv" = "No se pueden ver las listas por el momento.";
+
